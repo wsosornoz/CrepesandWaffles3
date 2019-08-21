@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Midnight">
+
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/titulo"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+        />
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:text="@string/usuario"
+                android:gravity="center"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="@color/White"
+
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/usuario"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:id="@+id/txvuser"
+                android:textColor="@color/White"
+                android:layout_marginTop="15dp"
+        />
+
+
+        <ImageView
+                android:src="@drawable/logocrepes"
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="190sp"
+                android:layout_marginTop="45dp"/>
+
+    </LinearLayout>
+</ScrollView>
